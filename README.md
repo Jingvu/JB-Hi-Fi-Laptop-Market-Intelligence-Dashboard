@@ -33,7 +33,7 @@ This project covered the entire data lifecycle, from web scraping and governance
   - Added early exits and assert conditions to ensure files aren’t empty, schema matches, and row counts align post-merge.
   - Print statements notify about all steps and mismatches.
 
-\n
+/
 ### 2. Preprocessing & Data Cleaning (Python)
 #### **Initial Exploration:**
   - Explored shape, useable columns, data types and descriptive summary for categorical and numerical columns.
@@ -49,7 +49,7 @@ This project covered the entire data lifecycle, from web scraping and governance
   - Bucketed and standardized spec fields, created new flags.
   - Ensured all columns are in the right data format.
 
-\n
+/
 ### 3. BI Integration (Power BI)
   - Final outputs:
       📁 results_tagged.csv → pricing, tags, brand, and lifecycle flags.
