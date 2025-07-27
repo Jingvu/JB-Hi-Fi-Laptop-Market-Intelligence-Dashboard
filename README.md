@@ -19,14 +19,14 @@ The dashboard doesn't just show data, it reveals actionable insights. A hiring m
 
 - **Ratings Volatility Indicates Market Fluctuation:** The dashboard tracks day-over-day rating changes, revealing market sentiment in near real-time. This metric could serve as an early warning system for brand reputation issues or the positive reception of a new product launch.
 
-## Technical Workflow
+## Data Pipeline Summary
 To build this intelligence tool, I managed the full data lifecycle, from acquisition to visualization.
 
-- **Live Data Acquisition:** I used a Python script using Selenium to perform a real-world web scraping task on JB Hi-Fi's dynamic. The script was designed to be robust, navigating product categories and handling "load more" events to capture a comprehensive dataset.
-
-- **Data Transformation and Modeling:** I implemented a two-stage data wrangling strategy to handle the messy raw data. Initial cleaning and structuring were performed using Python and its Pandas library. The refined data was then ingested into Power BI, where I leveraged Power Query to merge it with the detailed specifications dataset and finalize the unified, reliable data model for analysis.
-
-- **Interactive Dashboard Development:** Using Power BI, I developed three distinct dashboard views—Pricing Landscape, Spec Dominance, and Rating Momentum. The design focuses on intuitive navigation and clear, high-impact KPIs, allowing a non-technical user to immediately grasp key market insights and drill down for more detail.
+### 1. Data Collection & Scraping
+#### - Scraped product listings:
+  - Used Selenium (headless Chrome) to load all laptops from JB Hi-Fi by auto-clicking the “Load More” button.
+  - Extracted product title, price, image URL, ratings, number of reviews, and promotional tags.
+  - Inferred brand names from titles using a custom list.
 
 ## View the Dashboard
 https://app.powerbi.com/view?r=eyJrIjoiOWM1YzhiOTYtYjUwMS00ZWY4LThjMTItMGViNjc2OTkxYzcwIiwidCI6Ijc4NGU5YWE4LWI4ZjQtNGFhOS1iMTgzLTE5ODExNjE5YjllZSJ9
