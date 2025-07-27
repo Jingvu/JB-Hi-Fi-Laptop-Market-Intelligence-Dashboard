@@ -14,7 +14,7 @@ The dashboard doesn't just show data, it reveals actionable insights. A hiring m
 - **The Market is Sharply Divided into Tiers:** There's a clear split between elite, high-performance brands (Alienware/MSI averaging over $4.5K) and budget-focused players (Lenovo dominating the sub-$1K space). This reveals that a "one-size-fits-all" strategy is unviable, success depends on targeting a specific price tier.
 
 ## Data Pipeline Summary
-This project covered the entire data lifecycle, from web scraping and governance to cleaning and Power BI visualization.\
+This project covered the entire data lifecycle, from web scraping and governance to cleaning and Power BI visualization.
 
 ### 1. Data Collection & Scraping
 #### **a. Scraped product listings:**
@@ -31,7 +31,8 @@ This project covered the entire data lifecycle, from web scraping and governance
   - Each new file was merged into a master file after duplication checks (Used ['DateCollected', 'Title'] as unique keys for duplication check).
   - Created timestamped backups in jb_backup_data/ before every merge.
   - Added early exits and assert conditions to ensure files aren’t empty, schema matches, and row counts align post-merge.
-  - Print statements notify about all steps and mismatches.\
+  - Print statements notify about all steps and mismatches.
+
 
 
 ### 2. Preprocessing & Data Cleaning (Python)
@@ -47,7 +48,8 @@ This project covered the entire data lifecycle, from web scraping and governance
 #### **c. Technical Spec Cleanup:**
   - Dropped unused or noisy spec columns.
   - Bucketed and standardized spec fields, created new flags.
-  - Ensured all columns are in the right data format.\
+  - Ensured all columns are in the right data format.
+
 
 
 ### 3. BI Integration (Power BI)
