@@ -55,7 +55,7 @@ This project covered the entire data lifecycle, from web scraping and governance
 ### 3. BI Integration (Power BI)
   - Final outputs:\
       📁 results_tagged.csv → pricing, tags, brand, and lifecycle flags.\
-      📁 results_specs_cleaned_all.csv → full, enriched product specs.
+      📁 results_specs_cleaned_all.csv → full product specs.
   - Loaded into Power BI using Power Query, with additional transformations, grouping and calculations for dashboarding.
 
 ## View the Dashboard
