@@ -26,7 +26,7 @@ To build this intelligence tool, I managed the full data lifecycle, from acquisi
 
 - **Data Transformation and Modeling:** I implemented a two-stage data wrangling strategy to handle the messy raw data. Initial cleaning and structuring were performed using Python and its Pandas library. The refined data was then ingested into Power BI, where I leveraged Power Query to merge it with the detailed specifications dataset and finalize the unified, reliable data model for analysis.
 
--** Interactive Dashboard Development:** Using Power BI, I developed three distinct dashboard views—Pricing Landscape, Spec Dominance, and Rating Momentum. The design focuses on intuitive navigation and clear, high-impact KPIs, allowing a non-technical user to immediately grasp key market insights and drill down for more detail.
+- **Interactive Dashboard Development:** Using Power BI, I developed three distinct dashboard views—Pricing Landscape, Spec Dominance, and Rating Momentum. The design focuses on intuitive navigation and clear, high-impact KPIs, allowing a non-technical user to immediately grasp key market insights and drill down for more detail.
 
 ## View the Dashboard
 https://app.powerbi.com/view?r=eyJrIjoiOWM1YzhiOTYtYjUwMS00ZWY4LThjMTItMGViNjc2OTkxYzcwIiwidCI6Ijc4NGU5YWE4LWI4ZjQtNGFhOS1iMTgzLTE5ODExNjE5YjllZSJ9
