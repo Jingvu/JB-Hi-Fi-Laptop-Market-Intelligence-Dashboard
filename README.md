@@ -59,7 +59,7 @@ This project covered the entire data lifecycle, from web scraping and governance
 
 ### 2. Preprocessing & Data Cleaning (Python)
 #### **a. Initial Exploration:**
-  - Explored shape, useable columns, data types and descriptive summary for categorical and numerical columns.
+  - Explored shape, useable columns, data types, unique values and descriptive summary for categorical and numerical columns to strategically plan column selection, cleaning approach, and downstream transformations.
   - Identified and removed duplicate product titles and irrelevant columns.
 #### **b. Product Info Cleanup:**
   - Converted price fields to numeric, standardized boolean and text fields.
