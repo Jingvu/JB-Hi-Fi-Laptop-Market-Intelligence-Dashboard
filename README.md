@@ -1,8 +1,5 @@
 # JB-Hi-Fi-Laptop-Market-Intelligence-Dashboard
 
-<img width="1968" height="1125" alt="JB Hi-Fi" src="https://github.com/user-attachments/assets/baf684e2-6937-4068-926c-7d14e54b53ce" />
-
-
 ## Project Status: Active & Refreshed Daily
 
 This project moves beyond simple data scraping to build a strategic market intelligence tool. It answers the core business question: "What does it take to succeed in the competitive Australian laptop market?"
