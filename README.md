@@ -39,40 +39,14 @@ The dashboard doesn't just show data, it reveals actionable insights. A hiring m
 This project covered the entire data lifecycle, from web scraping and governance to cleaning and Power BI visualization.
 
 ### 1. Data Collection & Scraping
-#### **a. Scraped product listings:**
-  - Used Selenium (headless Chrome) to load all laptops from JB Hi-Fi by auto-clicking the “Load More” button.
-  - Extracted product title, price, image URL, ratings, number of reviews, and promotional tags.
-  - Inferred brand names from titles using a custom list.
-#### **b. Fetched and merged technical specifications:**
-  - Sent HTTP requests to each product page to extract hidden specs from window.themeConfig blocks.
-  - Parsed and flattened the JSON into key-value pairs.
-  - Merged spec data with the product list.
-#### **c. Data Governance & Management:**
-  - Automatically created a new file each day and saved that day’s scrape result as a CSV in jb_daily_data/ folder.
-  - Ensured data integrity by padding tags and writing clean headers.
-  - Each new file was merged into a master file after duplication checks (Used ['DateCollected', 'Title'] as unique keys for duplication check).
-  - Created timestamped backups in jb_backup_data/ before every merge.
-  - Added early exits and assert conditions to ensure files aren’t empty, schema matches, and row counts align post-merge.
-  - Print statements notify about all steps and mismatches.
-
-
+#### **a. Scraped product listings:** Used Selenium to extract laptop listings, prices, ratings, tags, and inferred brand names.
+#### **b. Fetched and merged technical specifications:** Pulled specs ìnormation from product pages, parsed JSON, and merged into the main dataset.
+#### **c. Data Governance & Management:** Saved daily scrapes, merged with duplication checks, auto-backed up, and validated schema and row counts.
 
 ### 2. Preprocessing & Data Cleaning (Python)
-#### **a. Initial Exploration:**
-  - Explored shape, useable columns, data types, unique values and descriptive summary for categorical and numerical columns to strategically plan column selection, cleaning approach, and downstream transformations.
-  - Identified and removed duplicate product titles and irrelevant columns.
-#### **b. Product Info Cleanup:**
-  - Converted price fields to numeric, standardized boolean and text fields.
-  - Removed irrelevant or sparse columns.
-  - Ensured consistent brand formatting and product naming.
-  - Compared the latest scrape date with each product’s final appearance.
-  - Added Final appear day and a Discontinued flag to mark dropped SKUs.
-#### **c. Technical Spec Cleanup:**
-  - Dropped unused or noisy spec columns.
-  - Bucketed and standardized spec fields, created new flags.
-  - Ensured all columns are in the right data format.
-
-
+#### **a. Initial Exploration:** Analyzed structure, data types, and distributions to guide cleaning and transformation.
+#### **b. Product Info Cleanup:** Standardized prices, cleaned text fields, flagged discontinued items, and dropped noise.
+#### **c. Technical Spec Cleanup:** Cleaned and bucketed specs, created flags, and ensured consistent formats across columns.
 
 ### 3. BI Integration (Power BI)
   - Final outputs:\
