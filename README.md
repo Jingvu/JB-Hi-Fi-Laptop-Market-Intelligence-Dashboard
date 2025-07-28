@@ -11,21 +11,29 @@ By capturing and analyzing live product data from a major retailer like JB Hi-Fi
 
 ## Key Features
 ### 1. Pricing Landscape
+<img width="1957" height="1125" alt="JB Hifi_Pricing" src="https://github.com/user-attachments/assets/e6d410ff-32c5-4825-b334-78dfe276e52f" />
+
 - Tracks the full SKU and median prices across laptop categories (Standard, Lightweight, Performance, Gaming).
 - Identifies top/bottom priced products, brand price trends, and SKU concentration.
 - Helps buyers and stakeholders benchmark pricing range and market spread.
 
 ### 2. Spec Dominance
+<img width="1979" height="1125" alt="JB Hifi_Specs" src="https://github.com/user-attachments/assets/0dc8f460-d0e6-4b66-880e-de7b54c11b8a" />
+
 - Highlights dominant hardware specs: RAM tiers, SSD sizes, GPU/Processor popularity.
 - Plots how these specs influence both price and market presence.
 - Shows if premium specs (e.g. Apple M3, 2TB SSD) truly command higher prices.
 
 ### 3. Rating Momentum
+<img width="1958" height="1125" alt="JB Hifi_Rating" src="https://github.com/user-attachments/assets/d25912d6-e1c7-4994-a44d-0bab71e628d0" />
+
 - Analyzes customer feedback across brands.
 - Bubble quadrant compares median price vs. rating vs. brand presence.
 - Tracks rating trends and model popularity shifts over time.
 
 ### 4. On-Sale Insights
+<img width="1958" height="1125" alt="JB Hifi_Sale" src="https://github.com/user-attachments/assets/4a092760-05d1-43fd-a7fd-cb647e58e671" />
+
 - Focuses on discounts, with average/max % discount and product-specific deals.
 - Visualizes which brands are most aggressive on markdowns.
 - Includes price vs. rating bubble to reveal value-for-money deals.
@@ -51,7 +59,7 @@ This project covered the entire data lifecycle, from web scraping and governance
 ### 3. BI Integration (Power BI)
 **- Final outputs:**\
     📁 results_tagged.csv → pricing, tags, brand, and lifecycle flags.\
-    📁 results_specs_cleaned_all.csv → full product specs.
+    📁 results_specs_cleaned_all.csv → full product specs.\
 **-** Loaded into Power BI using Power Query, with additional transformations, grouping and calculations for dashboarding.
 
 ## View the Dashboard
