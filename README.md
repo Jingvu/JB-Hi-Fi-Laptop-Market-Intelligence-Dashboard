@@ -39,13 +39,13 @@ The dashboard doesn't just show data, it reveals actionable insights. A hiring m
 This project covered the entire data lifecycle, from web scraping and governance to cleaning and Power BI visualization.
 
 ### 1. Data Collection & Scraping
-**- Scraped product listings:** Used Selenium to extract laptop listings, prices, ratings, tags, and inferred brand names.
-**- Fetched and merged technical specifications:** Pulled specs ìnormation from product pages, parsed JSON, and merged into the main dataset.
+**- Scraped product listings:** Used Selenium to extract laptop listings, prices, ratings, tags, and inferred brand names.\
+**- Fetched and merged technical specifications:** Pulled specs ìnormation from product pages, parsed JSON, and merged into the main dataset.\
 **- Data Governance & Management:** Saved daily scrapes, merged with duplication checks, auto-backed up, and validated schema and row counts.
 
 ### 2. Preprocessing & Data Cleaning (Python)
-**- Initial Exploration:** Analyzed structure, data types, and distributions to guide cleaning and transformation.
-**- Product Info Cleanup:** Standardized prices, cleaned text fields, flagged discontinued items, and dropped noise.
+**- Initial Exploration:** Analyzed structure, data types, and distributions to guide cleaning and transformation.\
+**- Product Info Cleanup:** Standardized prices, cleaned text fields, flagged discontinued items, and dropped noise.\
 **- Technical Spec Cleanup:** Cleaned and bucketed specs, created flags, and ensured consistent formats across columns.
 
 ### 3. BI Integration (Power BI)
