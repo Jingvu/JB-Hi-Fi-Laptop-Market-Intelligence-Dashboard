@@ -39,20 +39,20 @@ The dashboard doesn't just show data, it reveals actionable insights. A hiring m
 This project covered the entire data lifecycle, from web scraping and governance to cleaning and Power BI visualization.
 
 ### 1. Data Collection & Scraping
-#### **a. Scraped product listings:** Used Selenium to extract laptop listings, prices, ratings, tags, and inferred brand names.
-#### **b. Fetched and merged technical specifications:** Pulled specs ìnormation from product pages, parsed JSON, and merged into the main dataset.
-#### **c. Data Governance & Management:** Saved daily scrapes, merged with duplication checks, auto-backed up, and validated schema and row counts.
+**- Scraped product listings:** Used Selenium to extract laptop listings, prices, ratings, tags, and inferred brand names.
+**- Fetched and merged technical specifications:** Pulled specs ìnormation from product pages, parsed JSON, and merged into the main dataset.
+**- Data Governance & Management:** Saved daily scrapes, merged with duplication checks, auto-backed up, and validated schema and row counts.
 
 ### 2. Preprocessing & Data Cleaning (Python)
-#### **a. Initial Exploration:** Analyzed structure, data types, and distributions to guide cleaning and transformation.
-#### **b. Product Info Cleanup:** Standardized prices, cleaned text fields, flagged discontinued items, and dropped noise.
-#### **c. Technical Spec Cleanup:** Cleaned and bucketed specs, created flags, and ensured consistent formats across columns.
+**- Initial Exploration:** Analyzed structure, data types, and distributions to guide cleaning and transformation.
+**- Product Info Cleanup:** Standardized prices, cleaned text fields, flagged discontinued items, and dropped noise.
+**- Technical Spec Cleanup:** Cleaned and bucketed specs, created flags, and ensured consistent formats across columns.
 
 ### 3. BI Integration (Power BI)
-  - Final outputs:\
-      📁 results_tagged.csv → pricing, tags, brand, and lifecycle flags.\
-      📁 results_specs_cleaned_all.csv → full product specs.
-  - Loaded into Power BI using Power Query, with additional transformations, grouping and calculations for dashboarding.
+- Final outputs:\
+    📁 results_tagged.csv → pricing, tags, brand, and lifecycle flags.\
+    📁 results_specs_cleaned_all.csv → full product specs.
+- Loaded into Power BI using Power Query, with additional transformations, grouping and calculations for dashboarding.
 
 ## View the Dashboard
 https://app.powerbi.com/view?r=eyJrIjoiOWM1YzhiOTYtYjUwMS00ZWY4LThjMTItMGViNjc2OTkxYzcwIiwidCI6Ijc4NGU5YWE4LWI4ZjQtNGFhOS1iMTgzLTE5ODExNjE5YjllZSJ9
