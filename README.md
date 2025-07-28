@@ -52,7 +52,7 @@ This project covered the entire data lifecycle, from web scraping and governance
 **- Final outputs:**\
     📁 results_tagged.csv → pricing, tags, brand, and lifecycle flags.\
     📁 results_specs_cleaned_all.csv → full product specs.
-- Loaded into Power BI using Power Query, with additional transformations, grouping and calculations for dashboarding.
+**-** Loaded into Power BI using Power Query, with additional transformations, grouping and calculations for dashboarding.
 
 ## View the Dashboard
 https://app.powerbi.com/view?r=eyJrIjoiOWM1YzhiOTYtYjUwMS00ZWY4LThjMTItMGViNjc2OTkxYzcwIiwidCI6Ijc4NGU5YWE4LWI4ZjQtNGFhOS1iMTgzLTE5ODExNjE5YjllZSJ9
