@@ -28,7 +28,8 @@ This project moves beyond simple data scraping to build a strategic market intel
 - Tracks rating trends and model popularity shifts over time.
 
 ### 4. On-Sale Insights
-<img width="1958" height="1125" alt="JB Hifi_Sale" src="https://github.com/user-attachments/assets/4a092760-05d1-43fd-a7fd-cb647e58e671" />
+<img width="1206" height="684" alt="image" src="https://github.com/user-attachments/assets/afa3df29-a627-4bab-8855-9b272836c671" />
+
 
 - Focuses on discounts, with average/max % discount and product-specific deals.
 - Visualizes which brands are most aggressive on markdowns.
