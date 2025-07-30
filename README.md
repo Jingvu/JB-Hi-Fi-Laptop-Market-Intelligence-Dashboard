@@ -5,8 +5,6 @@ View the Dashboard: https://app.powerbi.com/view?r=eyJrIjoiOWM1YzhiOTYtYjUwMS00Z
 
 This project moves beyond simple data scraping to build a strategic market intelligence tool. It answers the core business question: "What does it take to succeed in the competitive Australian laptop market?"
 
-By capturing and analyzing live product data from a major retailer like JB Hi-Fi, this project creates a comprehensive overview of the pricing, specifications, and brand dynamics that define the industry, culminating in an interactive Power BI dashboard for strategic decision-making.
-
 ## Key Features
 ### 1. Pricing Landscape
 <img width="1957" height="1125" alt="JB Hifi_Pricing" src="https://github.com/user-attachments/assets/e6d410ff-32c5-4825-b334-78dfe276e52f" />
@@ -37,9 +35,27 @@ By capturing and analyzing live product data from a major retailer like JB Hi-Fi
 - Includes price vs. rating bubble to reveal value-for-money deals.
 
 ## Key Strategic Insights
-The dashboard doesn't just show data, it reveals actionable insights. A hiring manager or brand strategist could use this tool to identify market gaps and competitive opportunities.
+### Which brands dominate different price tiers?
+- The overall median price is $2.1K, with Gaming laptops commanding the highest median at $3.5K, while Standard models start from $2K.
+- MSI dominates the gaming segment with wide price coverage ($1.1K–$11.8K) and holds 20% of all SKUs, 35.4% of gaming.
+- ASUS, HP, and Lenovo heavily cover the budget segment (sub-$1K), offering options for price-sensitive customers.
 
-- **The Market is Sharply Divided into Tiers:** There's a clear split between elite, high-performance brands (Alienware/MSI averaging over $4.5K) and budget-focused players (Lenovo dominating the sub-$1K space). This reveals that a "one-size-fits-all" strategy is unviable, success depends on targeting a specific price tier.
+### What specs are most common and drive up prices?
+- Intel dominates both GPU and CPU share, followed by NVIDIA.
+- The most common spec profile is 16GB RAM, 14” displays, and 1TB SSD—reflecting demand for compact yet capable devices.
+- High-end configurations like NVIDIA RTX GPUs, Intel Ultra 9, and >1TB SSD are key drivers pushing prices beyond $5K.
+- Despite Apple’s strong SKU presence, Windows 11 Home is the most common OS across listings.
+
+### Are customers paying for quality or just branding?
+- Apple earns top ratings (~5.0) with premium prices.
+- MSI offers biggest discounts but lower ratings, potential quality concern.
+- HP, Lenovo, and Dell hit the value sweet spot: strong ratings + lower prices.
+
+### Which brands perform best under discount?
+- ~48% of SKUs are discounted; 20–30% is the most common band.
+- Apple and Dell retain high ratings post-discount.
+- ASUS and HP show less rating improvement when discounted, suggesting limited impact on perceived value.
+- MSI offers the highest number of discounted products, but Dell and ASUS feature the steepest markdowns.
 
 ## Data Pipeline Summary
 This project covered the entire data lifecycle, from web scraping and governance to cleaning and Power BI visualization.
