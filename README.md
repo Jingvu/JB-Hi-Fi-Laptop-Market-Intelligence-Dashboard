@@ -1,9 +1,9 @@
 # JB-Hi-Fi-Laptop-Market-Intelligence-Dashboard
 
-### Summary: Active & Refreshed Daily
+### Summary (Updated Daily)
 View the Dashboard: https://app.powerbi.com/view?r=eyJrIjoiOWM1YzhiOTYtYjUwMS00ZWY4LThjMTItMGViNjc2OTkxYzcwIiwidCI6Ijc4NGU5YWE4LWI4ZjQtNGFhOS1iMTgzLTE5ODExNjE5YjllZSJ9
 
-This project moves beyond simple data scraping to build a strategic market intelligence tool. It answers the core business question: "What does it take to succeed in the competitive Australian laptop market?"
+This project transforms daily laptop listings from JB Hi-Fi into a live market intelligence dashboard. It’s designed to help users quickly understand price trends, spec dominance, customer sentiment, and brand discount strategies in Australia’s laptop market.
 
 ## Key Features
 ### 1. Pricing Landscape
