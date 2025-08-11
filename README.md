@@ -7,28 +7,31 @@ This project transforms daily laptop listings from JB Hi-Fi into a live market i
 
 ## Key Features
 ### 1. Pricing Landscape
-<img width="1957" height="1125" alt="JB Hifi_Pricing" src="https://github.com/user-attachments/assets/e6d410ff-32c5-4825-b334-78dfe276e52f" />
+<img width="1423" height="800" alt="JB Hifi_Pricing" src="https://github.com/user-attachments/assets/5d29e8e5-0ea1-4df2-84f9-f98e5df40111" />
+
 
 - Tracks the full SKU and median prices across laptop categories (Standard, Lightweight, Performance, Gaming).
 - Identifies top/bottom priced products, brand price trends, and SKU concentration.
 - Helps buyers and stakeholders benchmark pricing range and market spread.
 
 ### 2. Spec Dominance
-<img width="1979" height="1125" alt="JB Hifi_Specs" src="https://github.com/user-attachments/assets/0dc8f460-d0e6-4b66-880e-de7b54c11b8a" />
+<img width="1978" height="1125" alt="JB Hifi_Specs" src="https://github.com/user-attachments/assets/7f7b74ed-f05d-4823-bd45-28c7d86d3638" />
+
 
 - Highlights dominant hardware specs: RAM tiers, SSD sizes, GPU/Processor popularity.
 - Plots how these specs influence both price and market presence.
 - Shows if premium specs (e.g. Apple M3, 2TB SSD) truly command higher prices.
 
 ### 3. Rating Momentum
-<img width="1958" height="1125" alt="JB Hifi_Rating" src="https://github.com/user-attachments/assets/d25912d6-e1c7-4994-a44d-0bab71e628d0" />
+<img width="1958" height="1125" alt="JB Hifi_Rating" src="https://github.com/user-attachments/assets/3bc91706-d7d0-407c-9303-29f70b3a039b" />
+
 
 - Analyzes customer feedback across brands.
 - Bubble quadrant compares median price vs. rating vs. brand presence.
 - Tracks rating trends and model popularity shifts over time.
 
 ### 4. On-Sale Insights
-<img width="1206" height="684" alt="image" src="https://github.com/user-attachments/assets/afa3df29-a627-4bab-8855-9b272836c671" />
+<img width="1958" height="1125" alt="JB Hifi_Sale" src="https://github.com/user-attachments/assets/28a3586f-05d5-4e71-ab0e-4df47e4f2aac" />
 
 
 - Focuses on discounts, with average/max % discount and product-specific deals.
