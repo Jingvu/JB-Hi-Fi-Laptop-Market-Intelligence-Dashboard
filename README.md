@@ -51,13 +51,13 @@ I broke it down into four angles:\
 - Includes price vs. rating bubble to reveal value-for-money deals.
 
 ## Some Interesting Insights
-- NVIDIA owns gaming GPUs, Intel risks irrelevance in this space
+- NVIDIA owns gaming GPUs, Intel risks irrelevance in this space\
 Across the full range, Intel rules CPUs (51.7%) and leads GPU SKU count (29.8%). But in the gaming segment, it’s NVIDIA’s kingdom (93% GPU share) with Intel almost absent (2%) and CPUs in gaming still skew Intel (83%). With the RTX 50 series (Blackwell + GDDR7) grabbing headlines, past trends suggest a jump in demand for not just gaming rigs but also creator-ready and AI-capable models, potentially boosting NVIDIA’s SKU share and gaming ASPs.
 
-- Apple proves strong branding can defy discount pressure
+- Apple proves strong branding can defy discount pressure\
 With a ~$2.4K median price, minimal discounting (~9%), and strong SKU presence (29.8% of GPUs), Apple maintains top customer ratings without joining the price-cut race. This is the evidence that competing on discounts alone won’t dent a brand that’s ingrained in consumer identity and seen as worth paying full price for.
 
-- Qualcomm’s potential
+- Qualcomm’s potential\
 Specs are converging on mobility and efficiency as the sweet spot (most common features: 16–32GB RAM, 14-inch displays, 1TB SSDs). Sitting at 15.3% SKU share and a ~$2.1K median price, Qualcomm’s Snapdragon X Elite/Plus now delivers x86-level performance, 15–20 hours of battery life and widening app compatibility. If consumers continue prioritizing portability over raw benchmark scores, ARM-powered laptops could win a bigger slice of the premium market.
 
 ## Data Pipeline Summary
