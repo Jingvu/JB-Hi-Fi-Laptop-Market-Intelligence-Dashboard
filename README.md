@@ -3,7 +3,18 @@
 ### Summary (Updated Daily)
 View the Dashboard: https://app.powerbi.com/view?r=eyJrIjoiOWM1YzhiOTYtYjUwMS00ZWY4LThjMTItMGViNjc2OTkxYzcwIiwidCI6Ijc4NGU5YWE4LWI4ZjQtNGFhOS1iMTgzLTE5ODExNjE5YjllZSJ9
 
-This project transforms daily laptop listings from JB Hi-Fi into a live market intelligence dashboard. It’s designed to help users quickly understand price trends, spec dominance, customer sentiment, and brand discount strategies in Australia’s laptop market.
+**Markets don’t stand still and neither should the data**
+Worked in a laptop company, I know how critical it is to understand the market, not just for launching the right products, but for timing promotions and clearing aging stock. They are daily problems.
+
+So, I built a Python scraper with daily refresh, cleaned and shaped it in Power Query, and modelled it in Power BI to answer one question:
+
+💡 "In the daily price war for consumer attention, are we leading, matching, or chasing?" 💡
+
+I broke it down into four angles:
+👉How is it shaped across price points and brands?
+👉Which technical specs dominate the shelf?
+👉What do ratings reveal?
+👉Where are the deepest discounts and are they worth it?
 
 ## Key Features
 ### 1. Pricing Landscape
@@ -38,28 +49,15 @@ This project transforms daily laptop listings from JB Hi-Fi into a live market i
 - Visualizes which brands are most aggressive on markdowns.
 - Includes price vs. rating bubble to reveal value-for-money deals.
 
-## Key Strategic Insights
-### Which brands dominate different price tiers?
-- The overall median price is $2.1K, with Gaming laptops commanding the highest median at $3.5K, while Standard models start from $2K.
-- MSI dominates the gaming segment with wide price coverage ($1.1K–$11.8K) and holds 20% of all SKUs, 35.4% of gaming.
-- ASUS, HP, and Lenovo heavily cover the budget segment (sub-$1K), offering options for price-sensitive customers.
+## Some Interesting Insights
+- NVIDIA owns gaming GPUs, Intel risks irrelevance in this space
+Across the full range, Intel rules CPUs (51.7%) and leads GPU SKU count (29.8%). But in the gaming segment, it’s NVIDIA’s kingdom (93% GPU share) with Intel almost absent (2%) and CPUs in gaming still skew Intel (83%). With the RTX 50 series (Blackwell + GDDR7) grabbing headlines, past trends suggest a jump in demand for not just gaming rigs but also creator-ready and AI-capable models, potentially boosting NVIDIA’s SKU share and gaming ASPs.
 
-### What specs are most common and drive up prices?
-- Intel dominates both GPU and CPU share, followed by NVIDIA.
-- The most common spec profile is 16GB RAM, 14” displays, and 1TB SSD—reflecting demand for compact yet capable devices.
-- High-end configurations like NVIDIA RTX GPUs, Intel Ultra 9, and >1TB SSD are key drivers pushing prices beyond $5K.
-- Despite Apple’s strong SKU presence, Windows 11 Home is the most common OS across listings.
+- Apple proves strong branding can defy discount pressure
+With a ~$2.4K median price, minimal discounting (~9%), and strong SKU presence (29.8% of GPUs), Apple maintains top customer ratings without joining the price-cut race. This is the evidence that competing on discounts alone won’t dent a brand that’s ingrained in consumer identity and seen as worth paying full price for.
 
-### Are customers paying for quality or just branding?
-- Apple earns top ratings (~5.0) with premium prices.
-- MSI offers biggest discounts but lower ratings, potential quality concern.
-- HP, Lenovo, and Dell hit the value sweet spot: strong ratings + lower prices.
-
-### Which brands perform best under discount?
-- ~48% of SKUs are discounted; 20–30% is the most common band.
-- Apple and Dell retain high ratings post-discount.
-- ASUS and HP show less rating improvement when discounted, suggesting limited impact on perceived value.
-- MSI offers the highest number of discounted products, but Dell and ASUS feature the steepest markdowns.
+- Qualcomm’s potential
+Specs are converging on mobility and efficiency as the sweet spot (most common features: 16–32GB RAM, 14-inch displays, 1TB SSDs). Sitting at 15.3% SKU share and a ~$2.1K median price, Qualcomm’s Snapdragon X Elite/Plus now delivers x86-level performance, 15–20 hours of battery life and widening app compatibility. If consumers continue prioritizing portability over raw benchmark scores, ARM-powered laptops could win a bigger slice of the premium market.
 
 ## Data Pipeline Summary
 This project covered the entire data lifecycle, from web scraping and governance to cleaning and Power BI visualization.
