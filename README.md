@@ -4,16 +4,17 @@
 View the Dashboard: https://app.powerbi.com/view?r=eyJrIjoiOWM1YzhiOTYtYjUwMS00ZWY4LThjMTItMGViNjc2OTkxYzcwIiwidCI6Ijc4NGU5YWE4LWI4ZjQtNGFhOS1iMTgzLTE5ODExNjE5YjllZSJ9
 
 **Markets don’t stand still and neither should the data**
+
 Worked in a laptop company, I know how critical it is to understand the market, not just for launching the right products, but for timing promotions and clearing aging stock. They are daily problems.
 
 So, I built a Python scraper with daily refresh, cleaned and shaped it in Power Query, and modelled it in Power BI to answer one question:
 
 💡 "In the daily price war for consumer attention, are we leading, matching, or chasing?" 💡
 
-I broke it down into four angles:
-👉How is it shaped across price points and brands?
-👉Which technical specs dominate the shelf?
-👉What do ratings reveal?
+I broke it down into four angles:\
+👉How is it shaped across price points and brands?\
+👉Which technical specs dominate the shelf?\
+👉What do ratings reveal?\
 👉Where are the deepest discounts and are they worth it?
 
 ## Key Features
